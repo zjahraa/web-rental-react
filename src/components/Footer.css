@@ -1,0 +1,72 @@
+/* Footer.css */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center; /* Mengatur konten ke tengah secara horizontal */
+  align-items: center; /* Mengatur konten ke tengah secara vertikal */
+  flex-direction: column; /* Mengatur elemen-elemen di dalam footer ke dalam satu kolom */
+  text-align: center; /* Mengatur teks agar berada di tengah */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 800px; /* Mengatur lebar maksimum untuk konten footer */
+  width: 100%; /* Mengisi seluruh lebar footer */
+}
+
+.footer-logo {
+  flex: 1;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
+
+.footer-info p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  width: 100%; /* Mengisi seluruh lebar footer */
+}
+
+.footer-bottom a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}

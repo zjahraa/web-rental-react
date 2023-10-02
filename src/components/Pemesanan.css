@@ -1,0 +1,63 @@
+/* Pemesanan.css */
+
+.pemesanan {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pemesanan h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* .form-group select {
+    appearance: none;
+    padding-right: 30px; Tambahkan panah dropdown jika diinginkan
+    background: url('arrow-down.png') no-repeat right center; Ganti dengan path gambar panah dropdown Anda
+    background-size: 20px; Sesuaikan ukuran gambar panah dropdown
+  } */
+  
+  /* .form-group input[type="date"] {
+    appearance: none;
+    padding-right: 30px; Tambahkan kalender jika diinginkan
+    background: url('calendar.png') no-repeat right center; Ganti dengan path gambar kalender Anda
+    background-size: 20px; Sesuaikan ukuran gambar kalender
+  } */
+  
+  .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
