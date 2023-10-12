@@ -12,11 +12,10 @@ footer {
 }
 
 .footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 800px; /* Mengatur lebar maksimum untuk konten footer */
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
   width: 100%; /* Mengisi seluruh lebar footer */
 }
 

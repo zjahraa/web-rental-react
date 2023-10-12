@@ -6,10 +6,7 @@ import { AuthContextProvider } from "./context/AuthContext";
 import ProtectedRoute from "./component/ProtectedRoute";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
-// import Home from "./component/Home";
 import Pemesanan from "./component/Pemesanan";
-import Kontak from "./component/Kontak";
-// import Register from "./component/Register";
 import Signup from "./component/Signup";
 import DaftarMobil from "./component/DaftarMobil";
 import TambahMobil from "./component/TambahMobil";
@@ -27,14 +24,11 @@ function App() {
         <Routes>
           <Route path="/signin" element={<Signin />}></Route>
           <Route path='/account' element={<ProtectedRoute><Account /></ProtectedRoute>}/>
-          {/* <Route path='/home' element={<ProtectedRoute><DaftarMobil /></ProtectedRoute>}/> */}
           <Route path='/' element={<DaftarMobil />}/>
           <Route path='/home' element={<DaftarMobil />}/>
           <Route path='/pemesanan' element={<ProtectedRoute><Pemesanan /></ProtectedRoute>}/>
-          <Route path='/kontak' element={<ProtectedRoute><Kontak /></ProtectedRoute>}/>
           <Route path='/tambahmobil' element={<ProtectedRoute><TambahMobil /></ProtectedRoute>}/>
           <Route path='/deletemobil/:id' element={<ProtectedRoute><DeleteMobil /></ProtectedRoute>}/>
-          {/* <Route path='/detilmobil/:id' element={<ProtectedRoute><DetailMobil /></ProtectedRoute>}/> */}
           <Route path='/detilmobil/:id' element={<DetailMobil />}/>
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/daftarmobil" element={<DaftarMobil />}></Route>

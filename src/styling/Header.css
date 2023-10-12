@@ -1,0 +1,73 @@
+/* Header.css */
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #0056b3;
+  }
+
+  .appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white; /* Warna teks di appbar */
+    /* width: 100%; */
+  }
+  
+  .profile-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon img {
+    width: 35px; /* Lebar ikon foto profil */
+    height: 35px; /* Tinggi ikon foto profil */
+    border-radius: 10%; /* Membuat ikon bulat */
+    margin-right: 10px; /* Jarak antara ikon dan teks nama */
+  }
+  
+  .profile-name {
+    font-weight: bold;
+  }
+  
+  /* CSS Untuk Navbar */
+  .navbar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin-right: 20px; /* Jarak antara setiap item menu */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white; /* Warna teks menu */
+    font-weight: bold;
+  }
+  
+  /* Efek Hover pada Menu */
+  .navbar a:hover {
+    text-decoration: underline;
+  }

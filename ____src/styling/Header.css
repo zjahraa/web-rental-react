@@ -1,0 +1,46 @@
+/* Header.css */
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #0c0c0c;
+  }
+  
+  .logout-button {
+    margin-left: 10px; /* jarak antara teks selamat datang dan tombol logout */
+  }
+
+  li { 
+    color: #fff; 
+    font-weight: bold; 
+    transition: color 0.2s ease-in-out; 
+    cursor: pointer; /* Ubah ikon kursor saat dihover */ 
+  } 
+ 
+  li:hoverable { 
+    cursor: pointer; /* Ubah ikon kursor saat dihover */ 
+    color: #090909; /* Warna teks yang berubah saat dihover */ 
+  }

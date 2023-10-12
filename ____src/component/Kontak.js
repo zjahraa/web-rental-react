@@ -1,5 +1,5 @@
 import React from 'react';
-import './Kontak.css';
+import '../styling/Kontak.css';
 
 function Kontak() {
   return (
